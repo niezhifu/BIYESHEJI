@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">BIYESHEJI</string>
+    <string name="todo">TODO</string>
+    <string name="MainTitle">关于</string>
+    <string name="MainAddTitle">添加</string>
+    <string name="save">保存</string>
+    <string name="delete">删除</string>
+    <string name="modify">修改</string>
+    <string name="tv1">姓名</string>
+    <string name="tv2">手机</string>
+    <string name="tv3">电话</string>
+    <string name="tv4">QQ</string>
+    <string name="tv5">邮箱</string>
+    <string name="tv6">住址</string>
+    <string name="abt">本程序coded by 聂智福</string>
+    <string name="title_main_activity">联系人</string>
+    <string name="title_activity_add">添加联系人</string>
+    <string name="title_activity_detail">联系人详情</string>
+    <string name="title_activity_modify">修改信息</string>
+    <string name="title_activity_about">关于</string>
+    <string name="call">呼叫</string>
+    <string name="sms">短信</string>
+</resources>

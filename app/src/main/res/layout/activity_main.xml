@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <ListView
+        android:id="@+id/lv_contact"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/et_clear"></ListView>
+
+    <TextView
+        android:id="@+id/tv_alphabet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_clear"
+        android:background="@android:color/holo_blue_bright"
+        android:padding="10dp"
+        android:textColor="@android:color/background_dark"
+        android:textSize="16sp" />
+
+    <com.example.a19454.biyesheji.ClearEditText
+        android:id="@+id/et_clear"
+        android:layout_width="374dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/bg1"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_blue_bright"
+        android:textSize="18sp"
+        tools:background="@drawable/bg1"
+        android:hint="搜索联系人"/>
+
+    <com.example.a19454.biyesheji.SideLetterBar
+        android:id="@+id/sideLetterBar"
+        android:layout_width="30dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@id/tv_alphabet"
+        android:background="@android:color/holo_blue_dark" />
+
+
+    <RelativeLayout
+        android:id="@+id/rel_notice"
+        android:visibility="invisible"
+        android:layout_alignParentEnd="true"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="90dp"
+        android:layout_marginEnd="80dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/tv_notice"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:padding="10dp"
+            android:textSize="18sp"
+            android:background="#00ff8c"
+            />
+        <ListView
+            android:layout_below="@id/tv_notice"
+            android:background="#FF46285b"
+            android:divider="@null"
+            android:id="@+id/lv_alphabet"
+            android:layout_width="40dp"
+            android:scrollbars="none"
+            android:layout_height="wrap_content">
+        </ListView>
+    </RelativeLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_first_alphabet"
+        android:layout_width="25dp"
+        android:layout_height="12dp"
+        android:background="#B51421"
+        android:padding="10dp"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:visibility="gone" />
+
+    <com.example.a19454.biyesheji.SwipeLayout
+        android:id="@+id/swp_slip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tv_contact_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:padding="10dp"
+            android:textSize="16sp" />
+
+        <include layout="@layout/layout_slip">
+
+        </include>
+    </com.example.a19454.biyesheji.SwipeLayout>
+</LinearLayout>
