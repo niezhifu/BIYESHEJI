@@ -70,8 +70,7 @@ public class MainActivity extends AppCompatActivity {
     public boolean onOptionsItemSelected(MenuItem item) {//菜单点击事件
         int id = item.getItemId();
         if (id == R.id.main_add) { // 添加联系人
-            Intent intent = new Intent(MainActivity.this, DetailActivity.class);
-            intent.putExtra("id",2);
+            Intent intent = new Intent(MainActivity.this, AddActivity.class);
             startActivity(intent);
             return true;
         }

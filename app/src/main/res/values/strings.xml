@@ -12,7 +12,7 @@
     <string name="tv4">QQ</string>
     <string name="tv5">邮箱</string>
     <string name="tv6">住址</string>
-    <string name="abt">本程序coded by 聂智福</string>
+    <string name="abt">\t本程序coded by 聂智福\n\t邮箱：nzfyjdr@gmail.com\n\t开源精神\n\t开源地址：https://github.com/algine/BIYESHEJI\n\t上海应用技术大学\n\t技科2班\n\t指导老师：郭文宏\n\t时间：2018.6.3</string>
     <string name="title_main_activity">联系人</string>
     <string name="title_activity_add">添加联系人</string>
     <string name="title_activity_detail">联系人详情</string>
